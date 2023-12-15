@@ -46,7 +46,7 @@ JekoStoreRefClass.updateHeaders({
 ___
 ## No cache request
 
-If the `noCacheRegExp` flag is not useful in your situation, you can always set each request to don't be cached: 
+If the `noCacheRegExp` flag is not useful in your situation, you can always set the `noCache` programmatically: 
 
 ```typescript
 const headers = new HttpHeaders().set('x_no_cache', 'true');
