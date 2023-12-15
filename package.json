@@ -1,0 +1,30 @@
+{
+    "name": "jeko-store",
+    "version": "0.0.0",
+    "scripts": {
+        "serve": "ng serve library-runner --port 5050 --open",
+        "publish": "ng build jeko-store-lib && cd dist/jeko-store-lib && npm publish && cd ../../ && rm -rf dist"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/animations": "17.0.7",
+        "@angular/common": "17.0.7",
+        "@angular/compiler": "17.0.7",
+        "@angular/core": "17.0.7",
+        "@angular/forms": "17.0.7",
+        "@angular/platform-browser": "17.0.7",
+        "@angular/platform-browser-dynamic": "17.0.7",
+        "@angular/router": "17.0.7",
+        "rxjs": "7.8.1",
+        "tslib": "2.6.2",
+        "zone.js": "0.14.2"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "17.0.7",
+        "@angular/cli": "17.0.7",
+        "@angular/compiler-cli": "17.0.7",
+        "ng-packagr": "17.0.2",
+        "typescript": "~5.2.0"
+    },
+    "packageManager": "yarn@4.0.2"
+}
